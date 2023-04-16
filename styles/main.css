@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar{
+    width: 7px;
+    height: 7px;
+    background: #666666;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background:#295E5E ;
+    border-radius: 10px;
+    
+}
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+body {
+    font-family: Arial;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    background: #3E8989;
+    padding: 15px 0;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+
+}
+
+.list {
+    display: flex;
+    list-style: none;
+}
+
+.item {
+    margin-right: 30px;
+}
+
+.item:nth-child(3) {
+    margin-right: 0;
+}
+
+.link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.header__content {
+    background: url(../images/header-bg.jpg) no-repeat center / cover;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header__title {
+    font-size: 80px;
+    line-height: 95px;
+    color: #ffffff;
+    margin-bottom: 20px;
+
+}
+
+.header__text {
+    font-size: 40px;
+    line-height: 47px;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+
+.header__link {
+    background: #B4436C;
+    ;
+    border-radius: 30px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 10px 24px;
+    text-decoration: none;
+    width: 200px;
+    text-align: center;
+}
+
+.main {
+    background: #E5E5E5;
+    padding-top: 80px;
+    padding-bottom: 97px;
+}
+
+.title {
+    font-size: 40px;
+    line-height: 48px;
+    color: #3E8989;
+    text-align: center;
+    padding: 50px;
+}
+
+.about__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.about__descr {
+    width: 545px;
+}
+
+.about__text {
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin-bottom: 20px;
+    padding: 20px;
+
+}
+
+.serach {
+    width: 216px;
+    background: #ffffff;
+    border-radius: 20px 0px 0px 20px;
+    padding: 8px 20px;
+    border: none;
+}
+
+.serach__btn {
+    width: 74px;
+    height: 35px;
+    background: #295E5E;
+    border-radius: 0px 20px 20px 0px;
+    color: #FFFFFF;
+    margin-left: -10px;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.header__link:hover {
+    background: #ffffff;
+    color: #B4436C;
+}
+
+.cotalog__contetn {
+    display: flex;
+    justify-content: space-between;
+    height: 365px;
+}
+
+.cotalog__item {
+    width: 263px;
+    height: 300px;
+    background: #efefef;
+    text-align: center;
+    font-weight: 600;
+}
+
+.cotalog__link {
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.clothes {
+    margin-top: 24px;
+}
+
+.cotalog__text {
+    margin-top: 101px;
+}
+
+.tents {
+    margin-top: 98px;
+}
+
+.backpacks {
+    margin-top: 40px;
+}
+
+.cotalog__item:nth-child(2) {
+    padding: 77px 0px;
+}
+
+.cotalog__item:nth-child(3) {
+    padding: 75px 0px;
+}
+
+.cotalog__item:nth-child(4) {
+    padding: 19px 0px;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.contact__title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #3E8989;
+    margin: 100px;
+  
+}
+
+.wrapper {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 124px;
+}
+
+.cotanct__text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #000000;
+    margin: 100px;
+    margin-top: 50px        ;
+}
+.form{
+    display: flex;
+}
+.contacts {
+    font-size: 20px;
+    line-height: 24px;
+    margin: 20px;
+
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts__link {
+    color: #000000;
+    padding: 10px;
+}
+
+div {
+    display: block;
+}
+.footer{
+    background: #3E8989;;
+    padding-top: 40px;
+}
+.container{
+    max-width: 1111px;
+    width: 100%;
+    margin: 0 auto;
+}
+.foot__list{
+    display: flex;
+    justify-content: center;
+}
+.foot__item{
+    margin-right: 30px;
+    list-style: none;
+}
+.foot__link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+}
+.end__text{
+    text-align:center;
+    margin-top: 59px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #fff;
+    padding-bottom: 15px;
+}
+
